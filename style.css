@@ -1,0 +1,28 @@
+#items {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+body {
+    background-color: blue;
+}
+
+#items div {
+    border: 6px solid black;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#items img {
+    height: 120px;
+}
+
+#pointer {
+    color: red;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+.hover {
+    border: solid 8px rgb(255, 255, 255) !important;
+}
