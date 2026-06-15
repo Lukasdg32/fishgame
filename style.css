@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  border: solid 3px rgba(0, 0, 0, 0.363);
+}
+
+.inventory-box {
+  border: solid 3px rgb(255, 145, 0);
+  background-color: rgb(255, 203, 135);
+}
+
+.world-area-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: solid 3px red;
+  background-color: rgba(255, 81, 81, 0.226);
+  height: 400px;
+  width: 800px;
+}
+
+.shop-box {
+  border: solid 3px rgb(0, 128, 38);
+  background-color: rgb(192, 255, 195);
+}
+
+.player-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px purple;
+  background-color: rgb(211, 164, 255);
+}
+
+.fish-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 255, 0.144);
+
+  border: solid 3px rgb(9, 0, 128);
+}
+
+.fish {
+  border: solid 3px rgb(62, 158, 182);
+  background-color: rgb(157, 253, 253);
+}
